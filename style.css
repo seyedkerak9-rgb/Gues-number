@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background: #101124;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.game-container {
+    width: 100%;
+    max-width: 420px;
+
+    background: #1c1d38;
+    border: 1px solid #35365c;
+    border-radius: 24px;
+
+    padding: 35px 25px;
+    text-align: center;
+
+    box-shadow: 0 15px 50px #00000055;
+}
+
+.icon {
+    font-size: 55px;
+    margin-bottom: 15px;.
+    
+}
+
+h2 {
+    color: #c4b5fd;
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #aaaac2;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+
+    background: #111225;
+    border: 1px solid #45466b;
+    border-radius: 12px;
+
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+    text-align: center;
+
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #a78bfa;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+    color: white;
+
+    border: none;
+    border-radius: 12px;
+
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+h1 {
+    color: #c4b5fd;
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 2;
+    min-height: 50px;
+}
+.ic {
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+}
